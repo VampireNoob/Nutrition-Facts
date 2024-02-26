@@ -81,8 +81,8 @@ function App() {
       <div>
         {
           myNutrition && Object.values(myNutrition.totalDaily)
-            .map(({ label, quantity, unit, id }) =>
-              <Nutrition key={id}
+            .map(({ label, quantity, unit }) =>
+              <Nutrition key={label}
                 label={label}
                 quantity={quantity}
                 unit={unit}
