@@ -38,7 +38,7 @@ function App() {
       setStateLoader(false);
       Swal.fire({
         title: 'We have a problem!',
-        text: 'Bitte überprüfen Sie die Schreibweise der Zutaten oder wenn Sie die Mengen oder Einheiten für die Zutaten vergessen haben.',
+        text: 'Bitte überprüfen Sie die Schreibweise der Zutaten in Englsich ist oder ob Sie die Mengen oder Einheiten für die Zutaten vergessen haben.',
         confirmButtonColor: '#6f9457',
       });
     }
