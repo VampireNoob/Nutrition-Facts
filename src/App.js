@@ -72,7 +72,7 @@ function App() {
       <form onSubmit={finalSearch}>
         <input
           className="search"
-          placeholder="1 baked potato, 100 g sour cream..."
+          placeholder="Enter your ingredients: 1 baked potato, 100 g sour cream..."
           onChange={myRecipeSearch}
         />
       </form>
